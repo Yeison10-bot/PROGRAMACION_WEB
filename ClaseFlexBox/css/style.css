@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.box{
+    border: 5px solid black;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    font-size: 3rem;
+    display: flex;
+}
+#container{
+    height: 200px;
+    background-color: gray;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color: wheat;
+}
+h1{
+    color: aqua;
+    background-color: black;
+    font-size: 60px;
+}
+
+img{
+    border-radius: 50%;
+    height: 50vh;
+    width: 50vw;
+    box-shadow: 5px 5px 10px black;
+}

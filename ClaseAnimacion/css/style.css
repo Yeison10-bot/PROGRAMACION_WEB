@@ -1,0 +1,15 @@
+
+.animate_animated{
+border: solid;
+font-size: 8rem;
+text-align: center;
+width: 400px;
+height: 400px;
+/* background-image: radial-gradient(red,green,blue); */
+/* transform: translate(300px,300px); */
+/* transform: rotatex(55deg); */
+/* transform: rotatey(55deg); */
+/* transform: scale(0.5); */
+/* transform: skew(-40deg,30deg); */
+transition: 2s;
+}
