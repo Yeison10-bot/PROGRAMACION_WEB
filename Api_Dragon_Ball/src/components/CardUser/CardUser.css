@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#cardActionArea {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    
+    /* fondo general */ 
+    background-color: #2a2d34;
+    width: 280px;
+    height: 580px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+#cardContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#cardMedia {
+    width: 280px;
+    height: 415px;
+    object-fit: contain;
+    /* importante para que se vea completa */
+
+}
+
+.character-image {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90%;
+    transition: transform 0.4s ease, z-index 0.2s;
+    z-index: 2;
+}
+
+.character-image:hover {
+    transform: translateX(-50%) scale(1.3);
+    z-index: 5;
+}
+
+
+b {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#name {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.letras {
+    font-size: 1.1rem;
+    color: #ffc107;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.card-media-background {
+    height: 500px;
+    /* background-image: url('https://img.freepik.com/vector-gratis/starburst-fondo-grunge_1048-2147.jpg'); */
+    background-image: url('https://img.freepik.com/fotos-premium/comics-llenos-accion-cielos-detallados-fuerte-impacto-emocional_899449-195961.jpg?ga=GA1.1.1297743798.1742081379&semt=ais_hybrid&w=740');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: visible; /* importante para dejar salir al personaje */
+  }

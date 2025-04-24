@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://st3.depositphotos.com/12674628/15278/i/450/depositphotos_152785580-stock-photo-black-slate-background.jpg');
+  background-size: cover; /* hace que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat; /* evita que la imagen se repita */
+  background-attachment: fixed; /* mantiene la imagen fija al hacer scroll */
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
