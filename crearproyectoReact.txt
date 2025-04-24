@@ -1,0 +1,28 @@
+PS C:\Users\yeiso\OneDrive\Documentos\PROGRAMACION WEB> npm create vite@latest
+
+> npx
+> cva
+
+│
+◇  Project name:
+│  Ejercicio_React_2
+│
+◇  Package name:
+│  ejercicio-react-2
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Scaffolding project in C:\Users\yeiso\OneDrive\Documentos\PROGRAMACION WEB\Ejercicio_React_2...
+│
+└  Done. Now run:
+
+  cd Ejercicio_React_2
+  npm install
+  npm run dev
+
+PS C:\Users\yeiso\OneDrive\Documentos\PROGRAMACION WEB> cd Ejercicio_React_2
+PS C:\Users\yeiso\OneDrive\Documentos\PROGRAMACION WEB\Ejercicio_React_2> npm i
